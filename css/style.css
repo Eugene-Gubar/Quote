@@ -1,0 +1,67 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.quote-h1 {
+    font-weight: 600;
+    text-shadow: 0em 0em 0.1em #0084b4;
+    text-transform: uppercase;
+    color: #0084b4;
+}
+
+button:active,
+button:focus {
+    outline: none !important;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.quote-h1-span {
+    font-size: 0.6em;
+    color: #565555;
+    text-shadow: 0em 0em 0.1em #565555;
+    font-family: cursive;
+}
+
+.tweet-style {
+    font-size: 7em;
+}
+
+.block-tweet {
+    margin-top: 100px;
+    background: #fff;
+    width: 640px;
+    height: auto;
+    -webkit-box-shadow: 1px 2px 14px 0px;
+    box-shadow: 1px 2px 14px 0px;
+    -webkit-border-radius: 30px 0px 0px 0px;
+    border-radius: 30px 0px 0px 0px;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    -moz-transition: 2s;
+    transition: 2s;
+}
+
+.fa-3 {
+    font-size: 4em !important;
+}
+
+.block-tweet > div > div > p {
+    font-size: 1.4em;
+}
+
+.block-tweet > div {
+    padding: 37px;
+}
+
+.btn-quote {
+    margin-top: 58px;
+}
