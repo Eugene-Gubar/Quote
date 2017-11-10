@@ -18,7 +18,7 @@ $(document).ready(function () {
         $("#new-quote").on("click", function () {
             gColor();
             $.ajax({
-                url: "http://api.forismatic.com/api/1.0/?method=getQuote&key=609543&format=jsonp&lang=en&jsonp=getQuote",
+                url: "https://api.forismatic.com/api/1.0/?method=getQuote&key=609543&format=jsonp&lang=en&jsonp=getQuote",
                 
                 jsonpCallback: "getQuote",
 
